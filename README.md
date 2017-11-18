@@ -2,10 +2,11 @@ Babel plugin to enable importing CSS files as emotion style declarations.
 
 _Very, very alpha!_
 
-Idea is that the following:
+Idea is that given:
 
 ```css
 /* style.css */
+
 p {
 	line-height: 1.5;
 }
@@ -13,19 +14,23 @@ p {
 	color: red;
 }
 ```
-
+you could import it like this:
 ```js
+// index.js
+
 import './styles.css';
 
 ```
-is transformed to:
+which is then transformed to:
 
 ```js
+// index.js
+
 import { css, injectGlobal } from 'emotion';
 injectGlobal`
-	p {
-	    color: blue;
-	}
+    p {
+        color: blue;
+    }
 `;
 const red = css`
     color: red;
