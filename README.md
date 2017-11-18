@@ -4,8 +4,6 @@
 
 Babel plugin to enable importing CSS files as emotion style declarations.
 
-_Very, very alpha!_
-
 Idea is that given:
 
 ```css
