@@ -1,3 +1,7 @@
+# babel-plugin-import-css-emotion
+
+![not ready](https://img.shields.io/badge/not%20ready!-alpha-red.svg?style=for-the-badge)
+
 Babel plugin to enable importing CSS files as emotion style declarations.
 
 _Very, very alpha!_
