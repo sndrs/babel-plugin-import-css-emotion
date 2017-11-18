@@ -8,10 +8,10 @@ Idea is that given:
 /* style.css */
 
 p {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 .red {
-	color: red;
+    color: red;
 }
 ```
 you could import it like this:
