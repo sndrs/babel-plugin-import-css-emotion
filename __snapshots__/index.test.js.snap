@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does what you would expect it to 1`] = `
+"
+import _ from 'lodash';
+import { css, injectGlobal } from \\"emotion\\";const red = css\`
+    color: red;
+
+
+\`;injectGlobal\`
+
+p {
+    color: blue;
+}
+
+
+\`;
+
+const x = red;"
+`;
